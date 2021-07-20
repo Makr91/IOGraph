@@ -1,0 +1,148 @@
+---
+plot:
+  camera:
+    up:
+      X: 0
+      Y: 0
+      Z: 1
+    center:
+      X: 0
+      Y: 0
+      Z: 0
+    eye:
+      X: -1.25
+      Y: -1.25
+      Z: 1.25
+  shared_xaxes: True
+  shared_yaxes: True
+  startcell: "top-left"
+  unique_traces: false
+  color: 'black'
+  margin:
+    l: 50
+    r: 50
+    t: 50
+    b: 50
+    pad: 50
+  zeroline:
+    COLOR:
+      X: 'black'
+      Y: 'black'
+      Z: 'black'
+    width:
+      X: 10
+      Y: 10
+      Z: 20
+    X: True
+    Y: True
+    Z: True
+  legend:
+    show: False
+  width: 1080
+  height: 700
+  title:
+      text: IOGraph
+      X: 0.5
+      Y: 0.1
+      XANCHOR: 'center'
+      YANCHOR: 'top'
+  annotation:
+    SIZE: 12
+    COLOR: 'black'
+  paper:
+    COLOR: 'white'
+  lines:
+    type:
+      X: 'log'
+      Y: 'log'
+      Z: 'log'
+    rangemode:
+      X: "tozero"
+      Y: "tozero"
+      Z: "tozero"
+    autorange:
+      X: True
+      Y: True
+      Z: True
+    COLOR:
+      X: 'black'
+      Y: 'black'
+      Z: 'black'
+    width:
+      X: 10
+      Y: 10
+      Z: 10
+    show:
+      X: True
+      Y: True
+      Z: True
+  tick:
+    ticks:
+      X: "outside"
+      Y: "outside"
+      Z: "outside"
+    showgrid:
+      X: True
+      Y: True
+      Z: True
+    on:
+      X: "boundaries"
+      Y: "boundaries"
+      Z: "boundaries"
+    prefix:
+      X: "    "
+      Y: "    "
+      Z: "    "
+    length:
+      X: 20
+      Y: 1
+      Z: 1
+    width:
+      X: 1
+      Y: 20
+      Z: 1
+    angle:
+      X: 23
+      Y: -23
+      Z: 0
+    COLOR:
+      X: 'black'
+      Y: 'black'
+      Z: 'black'
+  spacing:
+    horizontal: 1
+    vertical: 0.01
+  grid:
+    nticks:
+      Z: 20
+    COLOR:
+      X: 'grey'
+      Y: 'grey'
+      Z: 'grey'
+  line:
+#    COLOR: blue
+    width: 30
+    COLORSCALE: 'RdBu'
+  trace:
+#    COLOR: blue
+    COLORSCALE: 'RdBu'
+    SIZE: 8
+  axis:
+    COLOR:
+      X: 'grey'
+      Y: 'grey'
+      Z: 'grey'
+  background:
+    COLOR:
+      X: 'rgb(230, 230,200)'
+      Y: 'rgb(230, 200,230)'
+      Z: 'rgb(200, 200,230)'
+  sector:
+    Title:
+      X: 'File Size'
+      Y: 'Record Length'
+      Z: 'Kbytes/sec'
+    COLOR:
+      X: 'black'
+      Y: 'black'
+      Z: 'black'
